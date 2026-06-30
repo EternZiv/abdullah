@@ -26,7 +26,7 @@ export default function Newsletter() {
               Stay Updated
             </h2>
             <p className="body-text mt-3 max-w-md mx-auto">
-              Get the latest articles, projects, and insights delivered straight to your inbox.
+               Get the latest projects and insights delivered straight to your inbox.
             </p>
             <form
               className="flex flex-col sm:flex-row gap-2.5 mt-6 max-w-md mx-auto"

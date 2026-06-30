@@ -9,12 +9,12 @@ import { useCursorGlow } from "@/hooks/useCursorGlow";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import GlowButton from "@/components/ui/GlowButton";
 
-const sectionIds = ["hero", "projects", "about", "articles", "testimonials", "contact"];
+const sectionIds = ["hero", "projects", "about", "testimonials", "contact"];
 const navLinks = [
   { label: "About", href: "#about", section: "about" },
   { label: "Portfolio", href: "#projects", section: "projects" },
   { label: "Reviews", href: "#testimonials", section: "testimonials" },
-  { label: "Blog", href: "#articles", section: "articles" },
+
   { label: "Contact", href: "#contact", section: "contact" },
 ];
 

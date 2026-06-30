@@ -8,6 +8,7 @@ import Link from "next/link";
 import type { Project } from "@/types";
 import { projects } from "@/data/projects";
 import GlowButton from "@/components/ui/GlowButton";
+import ProjectGallery from "@/components/sections/ProjectGallery";
 
 export default function ProjectDetailClient({ project }: { project: Project }) {
   const ref = useRef(null);
@@ -182,6 +183,15 @@ export default function ProjectDetailClient({ project }: { project: Project }) {
           </motion.div>
         )}
       </div>
+
+      {project.gallery && project.gallery.length > 0 && (
+        <div className="max-w-6xl mx-auto px-6 lg:px-8 mt-16">
+          <ProjectGallery
+            images={project.gallery}
+            labels={project.galleryLabels || []}
+          />
+        </div>
+      )}
 
       <div className="max-w-4xl mx-auto px-6 lg:px-8 mt-16 mb-16">
         <div className="border-t border-border/50 pt-8">

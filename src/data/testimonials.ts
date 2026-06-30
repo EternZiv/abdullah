@@ -7,7 +7,7 @@ export const testimonials: Testimonial[] = [
     company: "TechVentures Inc.",
     content:
       "Working with Abdullah was transformative for our digital presence. The AI-powered platform he built exceeded our expectations and delivered measurable results from day one. His attention to detail and technical expertise is remarkable.",
-    avatar: "/images/avatar-1.svg",
+    avatar: "/images/projects/avatar-1.svg",
     rating: 5,
   },
   {
@@ -16,7 +16,7 @@ export const testimonials: Testimonial[] = [
     company: "DataFlow Systems",
     content:
       "The dashboard Abdullah created for us processes millions of data points in real-time. His expertise in both frontend and AI technologies is outstanding. I highly recommend his services.",
-    avatar: "/images/avatar-2.svg",
+    avatar: "/images/projects/avatar-2.svg",
     rating: 5,
   },
   {
@@ -25,7 +25,7 @@ export const testimonials: Testimonial[] = [
     company: "InnovateLab",
     content:
       "Abdullah doesn't just build websites — he crafts experiences. The attention to detail and performance optimization he brought to our platform was outstanding. A true professional.",
-    avatar: "/images/avatar-3.svg",
+    avatar: "/images/projects/avatar-3.svg",
     rating: 5,
   },
   {
@@ -34,7 +34,7 @@ export const testimonials: Testimonial[] = [
     company: "Park Ventures",
     content:
       "Our conversion rates increased by 40% after Abdullah redesigned our platform. His understanding of user psychology and technical execution is world-class. I couldn't be happier.",
-    avatar: "/images/avatar-4.svg",
+    avatar: "/images/projects/avatar-4.svg",
     rating: 5,
   },
   {
@@ -43,7 +43,7 @@ export const testimonials: Testimonial[] = [
     company: "CloudNine Technologies",
     content:
       "The logistics platform Abdullah developed handles our entire fleet operation. The AI route optimization alone saved us 20% in operational costs. Exceptional work.",
-    avatar: "/images/avatar-5.svg",
+    avatar: "/images/projects/avatar-5.svg",
     rating: 5,
   },
 ];

@@ -7,6 +7,7 @@ export interface Project {
   longDescription: string;
   image: string;
   gallery?: string[];
+  galleryLabels?: string[];
   techStack: string[];
   features: string[];
   challenges: string[];
