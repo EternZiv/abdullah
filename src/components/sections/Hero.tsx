@@ -142,7 +142,7 @@ export default function Hero() {
           <div className="relative z-10">
             <motion.div variants={itemVariants}>
               <span className="section-label text-[11px] md:text-xs tracking-[0.18em]">
-                Full-Stack Developer &amp; AI Architect
+                Full-Stack Developer • AI Architect • Frontend Engineer
               </span>
             </motion.div>
 
@@ -151,15 +151,15 @@ export default function Hero() {
               className="mt-2 md:mt-3 font-heading font-bold tracking-tight leading-[1.08]"
             >
               <span className="block text-heading text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5rem] leading-[1.06]">
-                Premium
+                Building
                 <br />
-                Websites
+                Premium
               </span>
               <span className="block text-heading text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5rem] leading-[1.06] mt-1">
-                For Modern
+                Digital
               </span>
               <span className="block text-accent text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5rem] leading-[1.06] mt-1">
-                Businesses.
+                Experiences.
               </span>
             </motion.h1>
 
@@ -167,9 +167,9 @@ export default function Hero() {
               variants={itemVariants}
               className="mt-5 md:mt-6 text-base md:text-[16px] lg:text-[17px] text-muted leading-relaxed max-w-lg"
             >
-              I build premium web applications, AI-powered business solutions,
+              I build premium web applications, AI-powered solutions,
               and scalable digital experiences that drive growth and deliver
-              measurable results for modern companies.
+              measurable results for modern businesses.
             </motion.p>
 
             <motion.div

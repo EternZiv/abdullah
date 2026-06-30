@@ -16,7 +16,7 @@ export const SITE_CONFIG = {
 
 export const PERSONAL_INFO = {
   name: "Hafiz Abdullah",
-  role: "Full-Stack Developer & AI Solutions Architect",
+  role: "Full-Stack Developer • AI Architect • Frontend Engineer",
   title: "Developer",
   email: "hello@abdullah.dev",
   location: "Remote · Worldwide",
@@ -27,7 +27,8 @@ export const PERSONAL_INFO = {
   happyClients: "30+",
   awards: "12+",
   description: `I craft premium digital experiences that blend cutting-edge AI capabilities with modern web technologies. With a problem-solving mindset and passion for innovation, I help businesses transform their digital presence through intelligent, scalable solutions.`,
-  aboutDescription: `I'm a passionate full-stack developer and AI solutions architect with over 5 years of experience building premium digital experiences. I specialize in creating modern web applications using Next.js, React, TypeScript, and integrating AI capabilities to solve real-world problems.
+
+  aboutDescription: `I'm a passionate Full-Stack Developer, AI Architect, and Mechatronics Engineer who enjoys building modern digital products, scalable web applications, and intelligent AI-powered solutions. With over 5 years of experience, I specialize in creating premium user experiences with modern frontend technologies while continuously expanding into AI systems and automation.
 
 My journey started with a curiosity for how things work on the web, and has evolved into a career building sophisticated applications for businesses worldwide. I believe in writing clean, maintainable code and creating interfaces that users love to interact with.`,
   education: [

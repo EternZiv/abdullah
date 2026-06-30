@@ -15,6 +15,7 @@ interface GlowButtonProps {
   children: React.ReactNode;
   className?: string;
   glowSize?: number;
+  disabled?: boolean;
 }
 
 const variantStyles: Record<ButtonVariant, string> = {
@@ -59,12 +60,14 @@ export default function GlowButton({
   children,
   className,
   glowSize = 360,
+  disabled = false,
 }: GlowButtonProps) {
   const glowRef = useRef<HTMLDivElement>(null);
   const { glowBackground, opacity } = useCursorGlow(glowRef, glowSize);
 
   const classes = cn(
-    "relative overflow-hidden rounded-full transition-colors duration-300 inline-flex items-center justify-center cursor-pointer select-none",
+    "relative overflow-hidden rounded-full transition-colors duration-300 inline-flex items-center justify-center select-none",
+    disabled ? "opacity-50 cursor-not-allowed" : "cursor-pointer",
     variantStyles[variant],
     className
   );
@@ -91,8 +94,8 @@ export default function GlowButton({
   );
 
   const shared = {
-    whileHover: hoverStyles[variant],
-    whileTap: { scale: 0.96 },
+    whileHover: disabled ? {} as TargetAndTransition : hoverStyles[variant],
+    whileTap: disabled ? {} as TargetAndTransition : { scale: 0.96 },
     transition: { type: "spring" as const, stiffness: 400, damping: 22 },
   };
 
@@ -116,7 +119,9 @@ export default function GlowButton({
       onClick={onClick}
       type={type}
       className={classes}
-        {...shared}
+      disabled={disabled}
+      aria-disabled={disabled}
+      {...shared}
     >
       {glowEl}
       {content}
